@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth; 
+    scroll-padding-top: 20px;
+}
+body{
+    background-color:#2c2c2c;
+}
+header h1{
+    color:#ffcd29;
+    /* font-weight: bold; */
+    font-size: 55px;
+}
+/* #about{} */
+#about h2 , #projects h2 , #skills h2 , #services h2 , #skills h6{
+  color: #ffcd29;
+}
+#contact a{
+    text-decoration: none;
+    color:#ffcd29;
+    padding: 100px;
+}
+#me{
+    filter:grayscale(50);
+    -webkit-filter:grayscale(50);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+#me:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
